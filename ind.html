@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratishtha | Personal Webspace</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="home-button"><i class="fa fa-house-user"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-id-badge"></i> About</a></li>
+                <li><a href="#projects"><i class="fa fa-laptop-code"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro" class="flex-container">
+            <div class="intro-text">
+                <h1 class="welcome-statement">Hello and Welcome!</h1>
+                <h2>I'm Pratishtha — an aspiring <span class="designer">Web Developer & Tech Enthusiast</span></h2>
+                <p>Currently pursuing B.Tech at Banasthali Vidyapith, I have a strong interest in frontend development and problem-solving using programming languages. I enjoy building creative and functional digital experiences.</p>
+            </div>
+            <div class="intro-image">
+                <img src="img.jpg" alt="Pratishtha's Profile Picture">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Who Am I?</h2>
+            <div class="about-content">
+                <p>I'm a dedicated student who blends logic and creativity to build digital solutions. With a passion for design and development, I aim to contribute to impactful projects.</p>
+                <p>Outside of academics, I explore UI/UX concepts, web design tools, and enjoy turning concepts into clean, user-friendly interfaces.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects I've Worked On</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>1. Personal Portfolio Site</h3>
+                    <p>This website you're viewing! Designed to showcase my work, skills, and personality.</p>
+                    <a href="#" class="btn project-link">Check it out</a>
+                </div>
+                <div class="project-card">
+                    <h3>2. Personal Bookmark Manager</h3>
+                    <p>Designed a clean and responsive UI for My Personal Bookmark Manager.It is a simple yet powerful web application designed to save, organize, and access favorite websites with ease.</p>
+                    <a href="#" class="btn project-link">Check it out</a>
+                </div>
+        
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+
+                    <button type="submit" class="btn send-message">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align: center; padding: 1rem;">© 2025 Pratishtha. Built with ❤️</p>
+    </footer>
+
+</body>
+
+</html>
